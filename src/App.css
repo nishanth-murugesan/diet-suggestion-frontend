@@ -1,0 +1,86 @@
+body {
+  margin: 0px;
+}
+.login-box {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #dddfe2;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  padding: 20px;
+  width: 250px;
+}
+.login-box form {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 250px;
+}
+.login-box p {
+  font-family: "Arvo", serif;
+  font-size: large;
+}
+.home {
+  text-align: center;
+  display: grid;
+  gap: 20px;
+}
+.home-nav {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  padding: 5px 30px;
+  background-color: rgb(46, 216, 111);
+  align-items: center;
+  margin: 0px;
+}
+.Abstract {
+  width: 75%;
+  margin: auto;
+}
+.Abstract h4 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: larger;
+}
+.Abstract p {
+  font-family: "Arvo", serif;
+  font-size: large;
+  color: rgb(27, 94, 47);
+}
+.selection {
+  margin: auto;
+  width: 40%;
+}
+.food-list {
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 15px;
+}
+.food-card {
+  text-align: center;
+  padding: 5px 5px;
+  width: 200px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  color: antiquewhite;
+  background-color: rgba(25, 82, 38, 0.788);
+  font-family: "Arvo", serif;
+  font-size: large;
+}
+
+.food-card div {
+  border-bottom: 2px solid #0b2b0b;
+}
+
+.piechart {
+  margin: 5% auto;
+  width: 300px;
+  height: 300px;
+}
